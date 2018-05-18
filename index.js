@@ -38,7 +38,7 @@ function destructivelyRemoveLastKittens(array) {
 }
 //console.log(destructivelyRemoveLastKittens(kittens));
 
-
+// not sure //
 function destructivelyRemoveFirstKittens(array) {
   let newArray = array.shift();
   return newArray;
