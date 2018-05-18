@@ -8,7 +8,7 @@ function appendKittens(array, element) {
 }
 
 //console.log(kittens);
-//console.log(appendKittens(kittens, "Snowball"));
+console.log(appendKittens(kittens, "Snowball"));
 
 //pop(removes last and returns that element)
 //push(adds to end and returns array new length)
