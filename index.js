@@ -21,7 +21,7 @@ function appendKittens(array, element) {
 //  console.log();
 
 function destructivelyAppendKittens(array, element) {
-  array.push();
+  array.push("Shelby");
   return array;
 }
 console.log(kittens);
