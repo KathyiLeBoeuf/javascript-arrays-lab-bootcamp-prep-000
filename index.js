@@ -24,6 +24,7 @@ function destructivelyAppendKittens(array) {
   array.push();
   return array;
 }
+console.log(kittens);
 console.log(destructivelyAppendKittens(kittens));
 
 function destructivelyPrependKittens(array, element) {
@@ -31,23 +32,22 @@ function destructivelyPrependKittens(array, element) {
   array.unshift("Pepper");
   return array;
 }
-console.log(destructivelyPrependKittens(kittens));
+//console.log(destructivelyPrependKittens(kittens));
 
 function destructivelyRemoveLastKittens(array) {
   array.pop();
   return array;
 }
-console.log(destructivelyRemoveLastKittens(kittens));
+//console.log(destructivelyRemoveLastKittens(kittens));
 
 // not sure //
 function destructivelyRemoveFirstKittens(array) {
   let newArray = array.shift();
   return newArray;
 }
-kittens = ['Milo', 'Otis', 'Garfield', '1', '2', '3'];
-console.log(kittens);
-
-console.log(destructivelyRemoveFirstKittens(kittens));
+//kittens = ['Milo', 'Otis', 'Garfield', '1', '2', '3'];
+//console.log(kittens);
+//console.log(destructivelyRemoveFirstKittens(kittens));
 
 function appendKitten(array, element) {
   return [element, ...array];
