@@ -49,8 +49,8 @@ console.log(kittens);
 console.log(destructivelyRemoveFirstKittens(kittens));
 
 function appendKitten(array, element) {
-  let newArray = array.push(element);
-  return newArray;
+  
+  return (element, ...array);
 }
 
 function prependKitten(array, element) {
