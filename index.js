@@ -39,8 +39,8 @@ function destructivelyRemoveLastKittens(array) {
   array.pop();
   return array;
 }
-console.log(kittens);
-console.log(destructivelyRemoveLastKittens(kittens));
+
+//console.log(destructivelyRemoveLastKittens(kittens));
 
 // not sure //
 function destructivelyRemoveFirstKittens(array) {
@@ -48,8 +48,8 @@ function destructivelyRemoveFirstKittens(array) {
   return newArray;
 }
 //kittens = ['Milo', 'Otis', 'Garfield', '1', '2', '3'];
-//console.log(kittens);
-//console.log(destructivelyRemoveFirstKittens(kittens));
+console.log(kittens);
+console.log(destructivelyRemoveFirstKittens(kittens));
 
 function appendKitten(array, element) {
   return [element, ...array];
