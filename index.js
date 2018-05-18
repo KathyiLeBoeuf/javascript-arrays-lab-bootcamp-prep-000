@@ -20,7 +20,7 @@ function appendKittens(array, element) {
 //spread operator ...
 //  console.log();
 
-function destructivelyAppendKittens(array) {
+function destructivelyAppendKittens(array, element) {
   array.push();
   return array;
 }
