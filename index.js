@@ -46,6 +46,8 @@ function destructivelyRemoveLastKittens(array) {
 function destructivelyRemoveFirstKittens(array) {
   let newArray = array.shift();
   return newArray;
+  /* let newArray = array.shift();
+  return newArray; */
 }
 //kittens = ['Milo', 'Otis', 'Garfield', '1', '2', '3'];
 console.log(kittens);
