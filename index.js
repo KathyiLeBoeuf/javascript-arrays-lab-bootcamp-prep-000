@@ -32,14 +32,15 @@ function destructivelyPrependKittens(array, element) {
   array.unshift("Pepper");
   return array;
 }
-console.log(kittens);
-console.log(destructivelyPrependKittens(kittens));
+
+//console.log(destructivelyPrependKittens(kittens));
 
 function destructivelyRemoveLastKittens(array) {
   array.pop();
   return array;
 }
-//console.log(destructivelyRemoveLastKittens(kittens));
+console.log(kittens);
+console.log(destructivelyRemoveLastKittens(kittens));
 
 // not sure //
 function destructivelyRemoveFirstKittens(array) {
