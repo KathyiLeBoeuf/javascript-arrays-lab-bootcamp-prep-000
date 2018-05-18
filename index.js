@@ -24,15 +24,16 @@ function destructivelyAppendKittens(array, element) {
   array.push("Shelby");
   return array;
 }
-console.log(kittens);
-console.log(destructivelyAppendKittens(kittens));
+
+//console.log(destructivelyAppendKittens(kittens));
 
 function destructivelyPrependKittens(array, element) {
   //prepend adds to beginning
   array.unshift("Pepper");
   return array;
 }
-//console.log(destructivelyPrependKittens(kittens));
+console.log(kittens);
+console.log(destructivelyPrependKittens(kittens));
 
 function destructivelyRemoveLastKittens(array) {
   array.pop();
