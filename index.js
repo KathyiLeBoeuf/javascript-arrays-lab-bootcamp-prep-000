@@ -57,7 +57,6 @@ function prependKitten(array, element) {
   
 }
 
-
 function removeLastKitten(array, element) {
   return (array.slice(0, array.length - 1))
 }
