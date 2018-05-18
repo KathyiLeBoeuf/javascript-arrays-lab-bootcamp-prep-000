@@ -7,7 +7,7 @@ function appendKittens(array, element) {
   return newArray;
 }
 
-//console.log(kittens);
+console.log(kittens);
 console.log(appendKittens(kittens, "Snowball"));
 
 //pop(removes last and returns that element)
