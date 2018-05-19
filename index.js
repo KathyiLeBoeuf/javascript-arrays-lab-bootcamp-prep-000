@@ -11,28 +11,28 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 //spread operator ...
 //  console.log();
 
-function destructivelyAppendKittens(array, element) {
+function destructivelyAppendKitten(array, element) {
   array.push(element);
   return array;
 }
 
-//console.log(destructivelyAppendKittens(kittens));
+//console.log(destructivelyAppendKitten(kittens));
 
-function destructivelyPrependKittens(array, element) {
+function destructivelyPrependKitten(array, element) {
   //prepend adds to beginning
   array.unshift(element);
   return array;
 }
 
-//console.log(destructivelyPrependKittens(kittens));
+//console.log(destructivelyPrependKitten(kittens));
 
-function destructivelyRemoveLastKittens(array) {
+function destructivelyRemoveLastKitten(array) {
   array.pop();
   return array;
 }
-//console.log(destructivelyRemoveLastKittens(kittens));
+//console.log(destructivelyRemoveLastKitten(kittens));
 
-function destructivelyRemoveFirstKittens(array) {
+function destructivelyRemoveFirstKitten(array) {
   array.shift();
   return array;
   /* let newArray = array.shift();
