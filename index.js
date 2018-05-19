@@ -38,8 +38,8 @@ function destructivelyRemoveFirstKittens(array) {
   /* let newArray = array.shift();
   return newArray; */
 }
-//console.log(kittens);
 //console.log(destructivelyRemoveFirstKittens(kittens));
+
 /*
 function appendKitten(array, element) {
   return [element, ...array];
@@ -50,9 +50,8 @@ function appendKittens(array, element) {
   let newArray = [...array, element];
   return newArray;
 }
-//console.log(kittens);
 //console.log(appendKittens(kittens, "Snowball"));
-//console.log(kittens);
+
 
 function prependKitten(array, element) {
   return [element, ...array];
