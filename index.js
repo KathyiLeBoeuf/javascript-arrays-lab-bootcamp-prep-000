@@ -17,23 +17,20 @@ function destructivelyAppendKitten(element) {
 
 //console.log(destructivelyAppendKitten(kittens));
 
-function destructivelyPrependKitten(array, element) {
+function destructivelyPrependKitten(element) {
   //prepend adds to beginning
-  array.unshift(element);
-  return array;
+  kittens.unshift(element);
 }
 
 //console.log(destructivelyPrependKitten(kittens));
 
-function destructivelyRemoveLastKitten(array) {
-  array.pop();
-  return array;
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
 }
 //console.log(destructivelyRemoveLastKitten(kittens));
 
-function destructivelyRemoveFirstKitten(array) {
-  array.shift();
-  return array;
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
   /* let newArray = array.shift();
   return newArray; */
 }
