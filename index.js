@@ -58,6 +58,7 @@ function appendKitten(array, element) {
 function prependKitten(array, element) {
   return [...array, element];
 }
+console.log(kittens);
 console.log(prependKitten(kittens, "Gracie"));
 console.log(kittens);
 
