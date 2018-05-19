@@ -59,13 +59,17 @@ function prependKitten(array, element) {
   return [...array, element];
 }
 //console.log(prependKitten(kittens, "Gracie"));
-console.log(kittens);
 
 function removeLastKitten(array, element) {
   return (array.slice(0, array.length - 1))
 }
+console.log(kittens);
 
+console.log(kittens);
+console.log(kittens);
 function removeFirstKitten(array, element) {
  return (array.slice(1));
 }
-
+console.log(kittens);
+console.log(kittens);
+console.log(kittens);
