@@ -39,10 +39,8 @@ function destructivelyRemoveLastKittens(array) {
   array.pop();
   return array;
 }
-
 //console.log(destructivelyRemoveLastKittens(kittens));
 
-// not sure //
 function destructivelyRemoveFirstKittens(array) {
   array.shift();
   return array;
