@@ -46,8 +46,8 @@ function appendKitten(element) {
 //console.log(appendKittens(kittens, "Snowball"));
 
 
-function prependKitten(array, element) {
-  return [element, ...array];
+function prependKitten(element) {
+  return [element, ...kittens];
 }
 //console.log(prependKitten(kittens, "Gracie"));
 
