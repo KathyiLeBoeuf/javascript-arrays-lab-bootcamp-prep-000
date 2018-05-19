@@ -65,7 +65,7 @@ function removeLastKitten(array) {
 }
 console.log(kittens);
 
-console.log(kittens);
+console.log(removeLastKitten(kittens));
 console.log(kittens);
 function removeFirstKitten(array) {
  return (array.slice(1));
