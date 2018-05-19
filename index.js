@@ -52,11 +52,11 @@ function prependKitten(element) {
 //console.log(prependKitten(kittens, "Gracie"));
 
 function removeLastKitten() {
-  return (array.slice(0, array.length - 1))
+  return (kittens.slice(0, kittens.length - 1))
 }
 //console.log(removeLastKitten(kittens));
 
 function removeFirstKitten() {
- return (array.slice(1));
+ return (kittens.slice(1));
 }
 //console.log(removeFirstKitten(kittens));
