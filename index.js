@@ -46,7 +46,7 @@ function appendKitten(array, element) {
 }  */
 //console.log(appendKitten(kittens, "Beau"));
 
-function appendKittens(array, element) {
+function appendKitten(array, element) {
   let newArray = [...array, element];
   return newArray;
 }
