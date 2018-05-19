@@ -11,7 +11,7 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 //spread operator ...
 //  console.log();
 
-function destructivelyAppendKitten(array, element) {
+function destructivelyAppendKitten(element) {
   array.push(element);
   return array;
 }
