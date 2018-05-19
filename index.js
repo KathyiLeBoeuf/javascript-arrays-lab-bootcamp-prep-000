@@ -63,13 +63,9 @@ function prependKitten(array, element) {
 function removeLastKitten(array) {
   return (array.slice(0, array.length - 1))
 }
-console.log(kittens);
+//console.log(removeLastKitten(kittens));
 
-console.log(removeLastKitten(kittens));
-console.log(kittens);
 function removeFirstKitten(array) {
  return (array.slice(1));
 }
-console.log(kittens);
-console.log(removeFirstKitten(kittens));
-console.log(kittens);
+//console.log(removeFirstKitten(kittens));
