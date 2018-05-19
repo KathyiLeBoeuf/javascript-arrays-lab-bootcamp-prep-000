@@ -12,7 +12,7 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 //  console.log();
 
 function destructivelyAppendKittens(array, element) {
-  array.push("Shelby");
+  array.push(element);
   return array;
 }
 
