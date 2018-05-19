@@ -41,7 +41,7 @@ function appendKitten(array, element) {
 //console.log(appendKitten(kittens, "Beau"));
 
 function appendKitten(element) {
-  return [...array, element];
+  return [...kittens, element];
 }
 //console.log(appendKittens(kittens, "Snowball"));
 
