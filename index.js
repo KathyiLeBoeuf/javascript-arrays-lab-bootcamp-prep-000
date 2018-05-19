@@ -71,5 +71,5 @@ function removeFirstKitten(array) {
  return (array.slice(1));
 }
 console.log(kittens);
-console.log(kittens);
+console.log(removeFirstKitten(kittens));
 console.log(kittens);
