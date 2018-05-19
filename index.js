@@ -2,15 +2,6 @@ const app = "I don't do much."
 
 kittens = ['Milo', 'Otis', 'Garfield'];
 
-function appendKittens(array, element) {
-  let newArray = [...array, element];
-  return newArray;
-}
-
-//console.log(kittens);
-//console.log(appendKittens(kittens, "Snowball"));
-//console.log(kittens);
-
 //pop(removes last and returns that element)
 //push(adds to end and returns array new length)
 //shift(removes first and returns that element)
@@ -53,7 +44,15 @@ function destructivelyRemoveFirstKittens(array) {
 function appendKitten(array, element) {
   return [element, ...array];
 }
-//console.log(appendKitten(kittens, "Beau"));
+console.log(appendKitten(kittens, "Beau"));
+
+function appendKittens(array, element) {
+  let newArray = [...array, element];
+  return newArray;
+}
+//console.log(kittens);
+console.log(appendKittens(kittens, "Snowball"));
+//console.log(kittens);
 
 function prependKitten(array, element) {
   return [...array, element];
