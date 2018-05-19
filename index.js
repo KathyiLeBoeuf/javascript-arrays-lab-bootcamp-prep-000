@@ -44,14 +44,14 @@ function destructivelyRemoveFirstKittens(array) {
 function appendKitten(array, element) {
   return [element, ...array];
 }
-console.log(appendKitten(kittens, "Beau"));
+//console.log(appendKitten(kittens, "Beau"));
 
 function appendKittens(array, element) {
   let newArray = [...array, element];
   return newArray;
 }
 //console.log(kittens);
-console.log(appendKittens(kittens, "Snowball"));
+//console.log(appendKittens(kittens, "Snowball"));
 //console.log(kittens);
 
 function prependKitten(array, element) {
