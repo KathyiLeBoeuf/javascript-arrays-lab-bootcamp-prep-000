@@ -40,10 +40,10 @@ function destructivelyRemoveFirstKittens(array) {
 }
 //console.log(kittens);
 //console.log(destructivelyRemoveFirstKittens(kittens));
-
+/*
 function appendKitten(array, element) {
   return [element, ...array];
-}
+}  */
 //console.log(appendKitten(kittens, "Beau"));
 
 function appendKittens(array, element) {
