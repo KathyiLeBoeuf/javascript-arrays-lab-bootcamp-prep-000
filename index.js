@@ -20,7 +20,7 @@ function destructivelyAppendKittens(array, element) {
 
 function destructivelyPrependKittens(array, element) {
   //prepend adds to beginning
-  array.unshift("Pepper");
+  array.unshift(element);
   return array;
 }
 
