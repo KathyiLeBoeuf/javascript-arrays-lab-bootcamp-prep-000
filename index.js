@@ -53,7 +53,7 @@ function destructivelyRemoveFirstKittens(array) {
 function appendKitten(array, element) {
   return [element, ...array];
 }
-console.log(appendKitten(array, element) );
+console.log(appendKitten(kittens, "Beau"));
 console.log(kittens);
 
 function prependKitten(array, element) {
