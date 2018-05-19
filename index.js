@@ -44,8 +44,8 @@ function destructivelyRemoveLastKittens(array) {
 
 // not sure //
 function destructivelyRemoveFirstKittens(array) {
-  let newArray = array.shift();
-  return newArray;
+  array.shift();
+  return array;
   /* let newArray = array.shift();
   return newArray; */
 }
