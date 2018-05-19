@@ -47,8 +47,7 @@ function destructivelyRemoveFirstKittens(array) {
   /* let newArray = array.shift();
   return newArray; */
 }
-//kittens = ['Milo', 'Otis', 'Garfield', '1', '2', '3'];
-console.log(kittens);
+//console.log(kittens);
 //console.log(destructivelyRemoveFirstKittens(kittens));
 
 function appendKitten(array, element) {
