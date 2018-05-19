@@ -53,13 +53,13 @@ function destructivelyRemoveFirstKittens(array) {
 function appendKitten(array, element) {
   return [element, ...array];
 }
-console.log(appendKitten(kittens, "Beau"));
-console.log(kittens);
+//console.log(appendKitten(kittens, "Beau"));
 
 function prependKitten(array, element) {
   return [...array, element];
-  
 }
+console.log(prependKitten(kittens, "Gracie"));
+console.log(kittens);
 
 function removeLastKitten(array, element) {
   return (array.slice(0, array.length - 1))
